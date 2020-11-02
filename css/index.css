@@ -1,0 +1,221 @@
+a,
+a:hover {
+  color: #999;
+  text-decoration: none;
+}
+body {
+  height: 3000px;
+}
+.wjs-header {
+  text-align: center;
+  line-height: 40px;
+  border-bottom: 1px solid #ccc;
+}
+.wjs-header .head > div {
+  border-right: 1px solid #ccc;
+  height: 40px;
+}
+.wjs-header .head > div .btn-register {
+  padding: 3px 10px;
+}
+.wjs-header .head > div:last-child {
+  border-right: none;
+}
+.wjs-nav .wjs-navbar {
+  background-color: #fff;
+  border-color: #e7e7e7;
+}
+.wjs-nav .wjs-navbar .navbar-brand {
+  color: red;
+  height: 80px;
+  line-height: 50px;
+}
+.wjs-nav .wjs-navbar .navbar-brand .wjs_icon_logo {
+  vertical-align: middle;
+  line-height: 50px;
+  font-size: 50px;
+  height: 50px;
+}
+.wjs-nav .wjs-navbar .navbar-brand .wjs_icon_word {
+  height: 30px;
+  line-height: 30px;
+  color: #333;
+  font-size: 30px;
+  vertical-align: middle;
+}
+.wjs-nav .wjs-navbar .navbar-brand:hover,
+.wjs-nav .wjs-navbar .navbar-brand:focus {
+  background-color: transparent;
+}
+.wjs-nav .wjs-navbar .navbar-text {
+  color: #777;
+}
+.wjs-nav .wjs-navbar .navbar-nav > li > a {
+  height: 80px;
+  line-height: 50px;
+  color: #777;
+}
+.wjs-nav .wjs-navbar .navbar-nav > li > a:hover,
+.wjs-nav .wjs-navbar .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+  border-bottom: 3px solid red;
+}
+.wjs-nav .wjs-navbar .navbar-nav > .active > a,
+.wjs-nav .wjs-navbar .navbar-nav > .active > a:hover,
+.wjs-nav .wjs-navbar .navbar-nav > .active > a:focus {
+  color: #555;
+}
+.wjs-nav .wjs-navbar .navbar-nav > .disabled > a,
+.wjs-nav .wjs-navbar .navbar-nav > .disabled > a:hover,
+.wjs-nav .wjs-navbar .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.wjs-nav .wjs-navbar .navbar-toggle {
+  border-color: #ddd;
+}
+.wjs-nav .wjs-navbar .navbar-toggle:hover,
+.wjs-nav .wjs-navbar .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.wjs-nav .wjs-navbar .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.wjs-nav .wjs-navbar .navbar-collapse,
+.wjs-nav .wjs-navbar .navbar-form {
+  border-color: #e7e7e7;
+}
+@media screen and (max-width: 768px) {
+  .wjs-nav .wjs-navbar {
+    border-top: none;
+    height: 50px;
+  }
+  .wjs-nav .wjs-navbar .navbar-brand {
+    padding: 0 15px;
+    height: 50px;
+    line-height: 50px;
+  }
+  .wjs-nav .wjs-navbar .navbar-nav > li > a {
+    color: #777;
+    height: 50px;
+    line-height: 20px;
+  }
+}
+.wjs-banner {
+  margin-top: -19px;
+}
+.wjs-banner .carousel-inner .pc-img {
+  height: 410px;
+  background-position: center center!important;
+}
+.wjs-info {
+  border-bottom: 1px #ccc solid;
+}
+.wjs-info .row .item {
+  padding-left: 20px;
+  margin-top: 30px;
+}
+.wjs-info .row .item .media-left span {
+  font-size: 36px;
+}
+@media screen and (min-width: 970px) {
+  .wjs-info .container {
+    width: 970px;
+  }
+}
+.wjs-book {
+  padding: 40px 0;
+}
+.wjs-book .left .wjs_icon_clock {
+  font-size: 20px;
+}
+.wjs-book .left .now-book {
+  border-bottom: 1px red dashed;
+  color: red;
+}
+.wjs-book .right .wjs_icon_video {
+  font-size: 20px;
+}
+.wjs-book .right a {
+  color: #000;
+}
+.wjs-products {
+  background-color: #ccc;
+}
+.wjs-products .nav-product {
+  border-bottom: 1px solid #ddd;
+}
+.wjs-products .nav-product > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.wjs-products .nav-product > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+}
+.wjs-products .nav-product > li > a:hover {
+  background-color: transparent;
+  border-bottom: 2px red solid;
+}
+.wjs-products .nav-product > li.active > a,
+.wjs-products .nav-product > li.active > a:hover,
+.wjs-products .nav-product > li.active > a:focus {
+  background-color: transparent;
+  border-bottom: 2px red solid;
+}
+.wjs-products .item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.wjs-products .item .current {
+  background-color: red!important;
+}
+.wjs-products .item .in {
+  background-color: #fff;
+}
+.wjs-products .item .in .left {
+  position: relative;
+  overflow: hidden;
+  height: 150px;
+}
+.wjs-products .item .in .left h4 {
+  text-align: center;
+}
+.wjs-products .item .in .left::before {
+  content: '\e915';
+  font-family: 'wjs_fonts';
+  position: absolute;
+  font-size: 40px;
+  left: 0;
+  top: -8px;
+}
+.wjs-products .item .in .right {
+  position: relative;
+  border-left: 1px dashed #000;
+  text-align: center;
+  height: 150px;
+  width: 80px;
+}
+.wjs-products .item .in .right .con {
+  height: 50px;
+  margin-top: 30px;
+}
+.wjs-products .item .in .right .con .num {
+  font-size: 34px;
+}
+.wjs-products .item .in .right::before,
+.wjs-products .item .in .right::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  top: -5px;
+  left: -5px;
+  border-radius: 50%;
+}
+.wjs-products .item .in .right::after {
+  top: auto;
+  bottom: -5px;
+}
